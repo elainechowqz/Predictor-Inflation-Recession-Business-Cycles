@@ -37,7 +37,8 @@ Inflation_Unemploymt_df["Annual Inflation Rate Normalized"] = (
 )
 
 
-# Scatter plots of Annual Inflation rates and Unemployment rates during different time periods
+# Scatter plots of Annual Inflation rates and Unemployment rates 
+# during different time periods
 
 Inflation_Unemploymt_df.plot.scatter(x="Unemployment Rate", y="Annual Inflation Rate")
 
@@ -111,7 +112,8 @@ plt.ylabel("Annual Inflation Rate Normalized")
 # Add a cluster label column to the orginal dataframe
 Inflation_Unemploymt_df2["cluster"] = l_km
 
-# Create a list of dataframes corresponding to all the clusters, and a bunch of histograms for the years in each cluster
+# Create a list of dataframes corresponding to all the clusters,
+# and a bunch of histograms for the years in each cluster
 
 cluster_list = []
 
@@ -152,13 +154,17 @@ plt.legend()
 
 
 # Hypothesis Testing
-# Null hypothesis: the time interval between macroeconomic cluster changes is of exponential(if we treat time as continuous) or geometric(if we treat time as discrete, e.g. number of months) distribution
+# Null hypothesis: the time interval between macroeconomic cluster changes
+# is of exponential(if we treat time as continuous) or 
+# geometric(if we treat time as discrete, e.g. number of months) distribution
 
 min_month_change = min(cluster_time_intervals_months)
 max_month_change = max(cluster_time_intervals_months)
 mean_month_change = np.mean(cluster_time_intervals_months)
 
-# Get an exponential random variable and a geometric random variable based on parameters derived from data
+# Get an exponential random variable and a geometric random variable based
+# on parameters derived from data
+
 # exponential distribution
 rv = scipy.stats.expon(min_month_change, mean_month_change)
 # geometric distribution
