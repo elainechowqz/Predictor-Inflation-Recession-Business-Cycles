@@ -56,9 +56,13 @@ point_stats_estimation(yearly, "yearly_return")
 point_stats_estimation(monthly_log, "monthly_log_return")
 
 
-# Part 2: normality testing for data over a short period(one year) and interval estimation(based on normality assumption on the statistical distribution of returns)
+# Part 2: normality testing for data over a short period(one year)
+# and interval estimation(based on normality assumption
+# on the statistical distribution of returns)
 
-# approach 1: use short term data(data from 1970) and some standard statistical tests for normality on daily, weekly and monthly returns+log returns
+# approach 1: use short term data(data from 1970) and some
+# standard statistical tests for normality on daily, weekly
+# and monthly returns+log returns
 
 
 def statistical_tests_for_short_term(pricedf, start_date, end_date, colname):
@@ -91,11 +95,18 @@ statistical_tests_for_short_term(price, d1, d2, "weekly_return")
 statistical_tests_for_short_term(price, d1, d2, "monthly_return")
 statistical_tests_for_short_term(price, d1, d2, "monthly_log_return")
 
-# upshot: using the four statistical tests above, we see that all the p-values(as compared to the standard cutoff 0.5) and critical values are ridiculously off. Normality Hypothesis rejected for returns during year 1970 as well as the five year period 1970-1975.
+# upshot: using the four statistical tests above, we see that all
+# the p-values(as compared to the standard cutoff 0.5) and critical
+# values are ridiculously off. Normality Hypothesis rejected for returns
+# during year 1970 as well as the five year period 1970-1975.
 
 
-# approach 2: after reading an online article, I realized that stocks returns are more or less normal except for a much fatter tail. Therefore, the normality assumption is rejected under various statistical tests, it is still useful, but the fat tail needs to be taken into account of.
-# I would like to now use 50 years of data on monthly returns, and perform some graphical normality inspections.
+# approach 2: after reading an online article, I realized that stocks returns
+# are more or less normal except for a much fatter tail. Therefore,
+# the normality assumption is rejected under various statistical tests,
+# it is still useful, but the fat tail needs to be taken into account of.
+# I would like to now use 50 years of data on monthly returns, and perform
+# some graphical normality inspections.
 
 # QQ plots for daily and monthly returns over 5 decades
 
@@ -130,7 +141,8 @@ sm.qqplot(daily_normalized.to_numpy(), line="45")
 plt.show()
 
 
-# Part 3: Statistical analysis of two macroeconomic indicators: CPI & Unemployment Rate vs S&P 500
+# Part 3: Statistical analysis of two macroeconomic indicators: CPI
+# & Unemployment Rate vs S&P 500
 
 normalized_macro = mac.Inflation_Unemploymt_df2
 standardized_macro = mac2.Inflation_Unemploymt_df2
@@ -206,7 +218,9 @@ for j in range(len(coef_list)):
     quot = regression_var / total_var
     quotient_list.append(quot)
 
-# It turns out that the R2 score for any cluster, any form of macroeconomic data(normalized, standardized or raw) is all really small, less than 0.05. So linear regression is a bad idea.
+# It turns out that the R2 score for any cluster, any form of
+# macroeconomic data(normalized, standardized or raw) is all really small,
+# less than 0.05. So linear regression is a bad idea.
 
 
 # general scatter plots in 2d and 3d
@@ -261,7 +275,9 @@ for i in range(num):
     print(i, cluster_list[i]["monthly_return"].describe())
 
 
-# Output: predict a range of likely stock market monthly return for the following month, given the macroeconomic environment, as described by clustering
+# Output: predict a range of likely stock market monthly return for
+# the following month, given the macroeconomic environment,
+# as described by clustering
 
 # print(macro_stocks_df)
 
