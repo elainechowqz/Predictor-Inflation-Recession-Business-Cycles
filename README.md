@@ -11,7 +11,7 @@ A good understanding of the clustering behavior of macroeconomic indicators give
 To gain insights towards stock prices through macroeconomic indicators, we first tried to run linear regression(over many different time periods and clusters), with the macroeconomic indicators being the dependent variables. However, the R^2 values are really low, showing that linear regression is not a good model here. Therefore, we next explore the statistical associations between stock market returns and macroeconomic indicators from other angles. 
 
 Final outputs: 
-1. Based on the statistical discovery described above, this program helps predict/quantify when and how likely the macroeconomic environment is going to change; 
+1. Based on the statistical/machine learning discovery described above, this program helps predict/quantify when and how likely the macroeconomic environment is going to change; 
 2. This program serves as a stock market predictor for the current or future months, by returning an estimated interval of monthly returns, based on historical data in idential or similar macroeconomic clusters. 
 
 
