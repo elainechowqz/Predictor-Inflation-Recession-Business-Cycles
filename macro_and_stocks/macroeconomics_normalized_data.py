@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 
 # Get inflation and unemployment data
 
-CPI_df = pd.read_excel (r'/Users/Elaine Qiao Zhou/data/CPIAUCSL.xls', skiprows=10) 
+CPI_df = pd.read_excel (r'/.../CPIAUCSL.xls', skiprows=10) 
 CPI_df.columns = ['observation_date', 'CPI']
 
 Unemployment_df = pd.read_excel (r'/Users/Elaine Qiao Zhou/data/UNRATE.xls', skiprows=10)
