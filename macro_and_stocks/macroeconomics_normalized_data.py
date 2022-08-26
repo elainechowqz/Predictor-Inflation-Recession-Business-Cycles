@@ -8,10 +8,10 @@ from sklearn.cluster import KMeans
 
 # Get inflation and unemployment data
 
-CPI_df = pd.read_excel(r"/.../CPIAUCSL.xls", skiprows=10)
+CPI_df = pd.read_excel(r"CPIAUCSL.xls", skiprows=10)
 CPI_df.columns = ["observation_date", "CPI"]
 
-Unemployment_df = pd.read_excel(r"/.../UNRATE.xls", skiprows=10)
+Unemployment_df = pd.read_excel(r"UNRATE.xls", skiprows=10)
 Unemployment_df.columns = ["observation_date", "Unemployment Rate"]
 
 CPI_df["Annual Inflation Rate"] = ((CPI_df["CPI"] / CPI_df["CPI"].shift(12)) - 1) * 100
