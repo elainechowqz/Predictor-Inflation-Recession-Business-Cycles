@@ -8,11 +8,11 @@ In particular, by the K-Means Clustering Machine Learning algorithm, we divide t
 
 One interesting statistical discovery is made! We hypothesize that the waiting time for changing macroeconomic clusters/time interval between consecutive cluster changes(For instance, during the course of the COVID-19 pandemic, the economy moved from low inflation - low unemployment, to low inflation - high unemployment, and then to high inflation - low unemployment) is of the Geometric distribution(or the Exponential distribution if we assume that time is continuous), and decide not to reject our hypothesis due to very large P-values. This time interval(as a random variable) is related to the lengths of business cycles and how long our macroeconomic environments last. A good understanding of the clustering behavior of macroeconomic indicators gives us insights about the changes of our macroeconomic climates and business cycles. 
 
-To gain insights towards stock prices through macroeconomic indicators, we look at stock prices in different macroeconomic clusters, and help make predictions. 
+Finally, to gain insights towards stock prices through macroeconomic indicators, we look at stock prices in different macroeconomic clusters, and help make predictions. 
 
-Final outputs: 
+Outputs: 
 1. Based on the statistical/machine learning discovery described above, this program helps predict/quantify when and how likely the macroeconomic environment is going to change; 
-2. This program serves as a stock market predictor for the current or future months, by returning an estimated interval of monthly returns, based on historical data in idential or similar macroeconomic clusters. 
+2. This program helps predict the stock market by returning an estimated interval of future monthly returns, based on historical data in idential or similar macroeconomic clusters. 
 
 
 
