@@ -4,11 +4,11 @@ This ongoing Python project analyzes over half a century of macroeconomic data (
 
 Using the K-Means Clustering algorithm, we’ve categorized the normalized unemployment and inflation data into three key clusters:
 
-    - Low inflation, low unemployment
+- Low inflation, low unemployment
     
-    - High inflation, low unemployment
+- High inflation, low unemployment
     
-    - Low inflation, high unemployment
+- Low inflation, high unemployment
     
 Other clustering configurations also reveal statistically interesting groupings. These clusters are visualized to provide a clearer understanding of macroeconomic shifts.
 
@@ -23,10 +23,10 @@ Below are the outputs and potential business applications of our predictor.
 
 ## Outputs
 
-    1. Macroeconomic Environment Prediction
+1. Macroeconomic Environment Prediction
 The model predicts the timing and likelihood of macroeconomic shifts and provides insights into the duration of business cycles. This has potential applications to **business planning**, like pricing and budget planning. 
 
-    2. Future Predictions
+2. Future Predictions
 Given the strong connections between macroeconomic indicators and financial measures like market returns and credit risk, this project opens up opportunities to extend the analysis to financial risk management:
 
 - Predicting stock market returns under different macroeconomic conditions
