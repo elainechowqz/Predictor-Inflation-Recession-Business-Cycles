@@ -17,9 +17,9 @@ Other clustering configurations also reveal statistically interesting groupings.
 ## Key Discovery
 
 We uncovered that changes in macroeconomic conditions (represented by shifts in unemployment and inflation) follow a **Markov process**. Through hypothesis testing, we found that the time between transitions from one cluster to another (e.g., from "low inflation, low unemployment" to "low inflation, high unemployment" during the COVID-19 pandemic) follows a **Geometric distribution** (or **Exponential distribution** in continuous time). This time interval correlates with business cycle lengths and the duration of various macroeconomic environments.
-Understanding these transitions helps predict shifts in macroeconomic climates and business cycles.
+Understanding these transitions helps **predict shifts in macroeconomic climates and business cycles**.
 
-Finally, to gain insights towards stock prices through macroeconomic indicators, we look at stock prices in different macroeconomic clusters, and help make predictions. 
+Below are the outputs and potential business applications of our predictor. 
 
 ## Outputs
 
