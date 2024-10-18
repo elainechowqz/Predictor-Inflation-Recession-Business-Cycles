@@ -24,14 +24,14 @@ Below are the outputs and potential business applications of our predictor.
 ## Outputs
 
     1. Macroeconomic Environment Prediction
-The model predicts the timing and likelihood of macroeconomic shifts and provides insights into the duration of business cycles. This has potential applications to business planning. 
+The model predicts the timing and likelihood of macroeconomic shifts and provides insights into the duration of business cycles. This has potential applications to **business planning**. 
 
     2. Future Predictions
-Given the strong ties between macroeconomic indicators and other financial measures (e.g., market and credit risk), this project opens up the possibility of extending the analysis to areas like financial risk management:
+Given the strong ties between macroeconomic indicators and other financial measures (e.g., market returns and credit risk), this project opens up the possibility of extending the analysis to areas like financial risk management:
 
         ◦ Stock market returns under different macroeconomic conditions
         
-        ◦ Regression models between macroeconomic indicators and credit default probabilities, with applications in predicting credit risks
+        ◦ Regression models between macroeconomic indicators and credit default probabilities
 
 
 
