@@ -1,8 +1,11 @@
 # Macroeconomics and Business Cycles Predictor 
 
-In this ongoing Python data project, we study more than half of a century of macroeconomic data (from 1940s to the present, including the COVID-19 pandemic), with the hope of understanding the changes of macroeconomic conditions and business cycles better. So far we have used unemployment and inflation rates, a pair of macroeconomic indicators with interesting connections historically. Numerous plots are generated to visualize our data. 
-
-In particular, by the K-Means Clustering Machine Learning algorithm, we divide the two-dimensional (normalized or standardized unemployment and inflation rates) data into three economically interesting clusters: low inflation - low unemployment, high inflation - low unemployment and low inflation - high unemployment. Some other numbers of clusters also seem interesting statistically. Clusters are visualized. 
+This ongoing Python project analyzes over half a century of macroeconomic data (from the 1940s to the present, including the COVID-19 pandemic) to better understand changes in macroeconomic conditions and business cycles. Our analysis currently focuses on two key indicators: unemployment and inflation rates, which have historically shown interesting relationships. We've generated various plots to visualize the data and uncover patterns.
+Using the K-Means Clustering algorithm, we’ve categorized the normalized unemployment and inflation data into three key clusters:
+    • Low inflation, low unemployment
+    • High inflation, low unemployment
+    • Low inflation, high unemployment
+Other clustering configurations also reveal statistically interesting groupings. These clusters are visualized to provide a clearer understanding of macroeconomic shifts.
 
 ![3 clusters](https://github.com/elainechowqz/Macroeconomics-and-Markets/blob/master/macro_and_stocks/3_clusters.png)
 
