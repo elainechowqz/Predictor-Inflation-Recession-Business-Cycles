@@ -27,7 +27,7 @@ Below are the outputs and potential business applications of our predictor.
    
 The model predicts the timing and likelihood of macroeconomic shifts and provides insights into the duration of business cycles. This has potential applications to **business planning**, like product pricing and budget planning. 
 
-2. Future Predictions
+2. Other Potential Applications
    
 Given the strong connections between macroeconomic indicators and financial measures like market returns and credit risk, this project opens up opportunities to extend the analysis to other business areas like financial risk management:
 
