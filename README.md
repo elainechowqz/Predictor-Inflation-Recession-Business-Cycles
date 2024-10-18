@@ -1,4 +1,4 @@
-# Macroeconomics and Markets
+# Macroeconomic Indicators and Business Cycles Predictor 
 
 In this ongoing Python data project, we study more than half of a century of stock market and macroeconomic data(from 1940s to the present, including the COVID-19 pandemic), with the hope of understanding their relationships better. So far we have explored S&P 500 data as well as unemployment and inflation rates, a pair of macroeconomic indicators with interesting connections historically. Numerous plots are generated to visualize our data. 
 
