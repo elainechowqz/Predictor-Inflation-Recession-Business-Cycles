@@ -29,9 +29,9 @@ The model predicts the timing and likelihood of macroeconomic shifts and provide
     2. Future Predictions
 Given the strong connections between macroeconomic indicators and financial measures like market returns and credit risk, this project opens up opportunities to extend the analysis to financial risk management:
 
-Predicting stock market returns under different macroeconomic conditions
+- Predicting stock market returns under different macroeconomic conditions
 
-Building regression models between macroeconomic indicators and credit default probabilities, with potential applications in predicting credit risks
+- Building regression models between macroeconomic indicators and credit default probabilities, with potential applications in predicting credit risks
 
 
 
