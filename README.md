@@ -14,13 +14,24 @@ Other clustering configurations also reveal statistically interesting groupings.
 
 ![3 clusters](https://github.com/elainechowqz/Macroeconomics-and-Markets/blob/master/macro_and_stocks/3_clusters.png)
 
-One interesting statistical discovery is made! We hypothesize that the waiting time for changing macroeconomic clusters/time interval between consecutive cluster changes (For instance, during the course of the COVID-19 pandemic, the economy moved from low inflation - low unemployment, to low inflation - high unemployment, and then to high inflation - low unemployment) is of the Geometric distribution (or the Exponential distribution if we assume that time is continuous), and decide not to reject our hypothesis due to very large P-values. This time interval (as a random variable) is related to the lengths of business cycles and how long our macroeconomic environments last. A good understanding of the clustering behavior of macroeconomic indicators gives us insights about the changes of our macroeconomic climates and business cycles. 
+Key Discovery
+
+We uncovered that changes in macroeconomic conditions (represented by shifts in unemployment and inflation) follow a Markov process. Through hypothesis testing, we found that the time between transitions from one cluster to another (e.g., from "low inflation, low unemployment" to "low inflation, high unemployment" during the COVID-19 pandemic) follows a Geometric distribution (or Exponential distribution in continuous time). This time interval correlates with business cycle lengths and the duration of various macroeconomic environments.
+Understanding these transitions helps predict shifts in macroeconomic climates and business cycles.
 
 Finally, to gain insights towards stock prices through macroeconomic indicators, we look at stock prices in different macroeconomic clusters, and help make predictions. 
 
-Outputs: 
-1. Based on the statistical/machine learning discovery described above, this program helps predict/quantify when and how likely the macroeconomic environment is going to change; 
-2. This program helps predict the stock market by returning an estimated interval of future monthly returns, based on historical data in idential or similar macroeconomic clusters. 
+Outputs
+
+    1. Macroeconomic Environment Prediction
+The model predicts the timing and likelihood of macroeconomic shifts and provides insights into the duration of business cycles. This has potential applications to business planning. 
+
+    2. Future Predictions
+Given the strong ties between macroeconomic indicators and other financial measures (e.g., market and credit risk), this project opens up the possibility of extending the analysis to areas like financial risk management:
+
+        ◦ Stock market returns under different macroeconomic conditions
+        
+        ◦ Regression models between macroeconomic indicators and credit default probabilities, with applications in predicting credit risks
 
 
 
