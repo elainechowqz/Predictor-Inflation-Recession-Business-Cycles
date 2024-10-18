@@ -25,7 +25,7 @@ Below are the outputs and potential business applications of our predictor.
 
 1. Macroeconomic Environment Prediction
    
-The model predicts the timing and likelihood of macroeconomic shifts and provides insights into the duration of business cycles. This has potential applications to **business planning**, like pricing and budget planning. 
+The model predicts the timing and likelihood of macroeconomic shifts and provides insights into the duration of business cycles. This has potential applications to **business planning**, like product pricing and budget planning. 
 
 2. Future Predictions
    
