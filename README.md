@@ -1,5 +1,7 @@
 # Business Planning --- Predictor for Inflation, Recession and Business Cycles
 
+This is a machine learning product involving original modeling techniques for macroeconomic indicators and concrete business insights. 
+
 ## Business Problem
 
 Businesses lack reliable tools to understand and predict macroeconomic shifts, particularly concerning unemployment and inflation, leading to suboptimal planning. This project analyzes 80+ years of data to develop insights for improved business cycle management.
