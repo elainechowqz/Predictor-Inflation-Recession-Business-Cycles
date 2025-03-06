@@ -1,6 +1,6 @@
 # Business Planning --- Predictor for Inflation, Recession and Business Cycles
 
-This is a machine learning product involving original modeling techniques for macroeconomic indicators and concrete business insights. 
+This is a machine learning product involving original modeling techniques and concrete business insights. 
 
 ## Business Problem
 
