@@ -4,19 +4,22 @@ This ongoing Python project analyzes over half a century of macroeconomic data (
 
 Using the K-Means Clustering algorithm, we’ve categorized the normalized unemployment and inflation data into three key clusters:
 
-- Low inflation, low unemployment
+- Low inflation, low unemployment (Stable Growths)
     
-- High inflation, low unemployment
+- High inflation, low unemployment (Overheating Economy)
     
-- Low inflation, high unemployment
+- Low inflation, high unemployment (Slow Growths/Recession)
     
-Other clustering configurations also reveal statistically interesting groupings. These clusters are visualized to provide a clearer understanding of macroeconomic shifts.
+These clusters are visualized to provide a clearer understanding of macroeconomic shifts.
 
 ![3 clusters](https://github.com/elainechowqz/Macroeconomics-and-Markets/blob/master/macro_and_stocks/3_clusters.png)
 
 ## Key Discovery
 
-We discovered that changes in macroeconomic conditions, indicated by shifts in unemployment and inflation, follow a **Markov process**. Hypothesis testing revealed that the time between transitions between clusters (e.g., from "low inflation, low unemployment" to "low inflation, high unemployment" and then to "high inflation, low unemployment" during the COVID-19 pandemic) adheres to a **Geometric distribution** (or **Exponential distribution** in continuous time). This time interval is linked to business cycle lengths and the duration of various macroeconomic environments. Understanding these transitions enhances our ability to **predict shifts in macroeconomic climates and business cycles**.
+We discovered that the lengths of business cycles adheres to a **Geometric distribution** (or **Exponential distribution** in continuous time). This time interval is linked to business cycle lengths and the duration of various macroeconomic environments. Understanding these transitions enhances our ability to **predict shifts in macroeconomic climates and business cycles**.
+
+continuous time intervals  clusters (e.g., from "low inflation, low unemployment" to "low inflation, high unemployment" and then to "high inflation, low unemployment" during the COVID-19 pandemic)
+We discovered that changes in macroeconomic conditions, indicated by shifts in unemployment and inflation, follow a **Markov process**.
 
 Below are the outputs and potential business applications of our predictor. 
 
