@@ -1,6 +1,6 @@
 # Business Planning --- Predictor for Inflation, Recession and Business Cycles
 
-This ongoing Python project analyzes over half a century of macroeconomic data (from the 1940s to the present, including the COVID-19 pandemic) to better understand changes in macroeconomic conditions and business cycles. Our analysis currently focuses on two key indicators: unemployment and inflation rates, which have historically shown interesting relationships. We've generated various plots to visualize the data and uncover patterns.
+This ongoing Python project analyzes over half a century of macroeconomic data (from the 1940s to early 2025) to better understand changes in macroeconomic conditions and business cycles. Our analysis currently focuses on two key indicators: unemployment and inflation rates, which have historically shown interesting relationships. We've generated various plots to visualize the data and uncover patterns.
 
 Using the K-Means Clustering algorithm, we’ve categorized the normalized unemployment and inflation data into three key clusters:
 
