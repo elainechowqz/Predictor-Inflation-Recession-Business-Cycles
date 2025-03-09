@@ -28,7 +28,7 @@ Using the K-Means Clustering algorithm, we’ve categorized the normalized unemp
     
 These clusters are visualized to provide a clearer understanding of macroeconomic shifts.
 
-![3 clusters](https://github.com/elainechowqz/Macroeconomics-and-Markets/blob/master/3_clusters.png)
+![3 clusters](https://github.com/elainechowqz/Macroeconomics-and-Markets/blob/master/inflation_unemployment_3_clusters.png)
 
 Our analysis reveals that business cycle lengths follow a predictable pattern, fitting a geometric distribution in discrete time, or an exponential distribution in continuous time. This pattern allows us to model transitions between macroeconomic states, such as those observed during the COVID-19 pandemic, where shifts in inflation and unemployment defined distinct economic clusters. These transitions demonstrate that macroeconomic changes adhere to a Markov process. Consequently, we've determined the average business cycle length to be approximately 35 months, with an approximately 3% probability of a shift in macroeconomic state occurring within the following month. 
 
