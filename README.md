@@ -4,7 +4,7 @@ This is a machine learning product involving original modeling techniques and co
 
 ## Business Problem
 
-Businesses lack reliable tools to understand and predict econometric trends and recession, particularly concerning unemployment and inflation, leading to suboptimal planning. This project analyzes 80+ years of data to develop insights for improved business cycle management and business planning
+Businesses lack reliable tools to understand and predict econometric trends and recession, particularly concerning unemployment and inflation, leading to suboptimal planning. This project analyzes 80+ years of data to develop insights for improved business cycle management and business planning. 
 
 ## Business Conclusion
 Our analysis of long-term macroeconomic data has revealed statistically significant patterns in business cycle lengths, providing insights into the dynamics of economic transitions. Based on these patterns, our model predicts a 29% probability of a shift from stable growth to slow growth or recession within the next 12 months, starting in Q1 2025. This prediction aligns with the consensus view of many economists, as evidenced by Bankrate's 2024 Q4 Economic Indicator Survey. This convergence of our findings with expert opinion reinforces the need for businesses to proactively prepare for potential economic headwinds.
