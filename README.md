@@ -4,8 +4,7 @@ This is a machine learning product involving original modeling techniques and co
 
 ## Business Problem
 
-Businesses lack reliable tools to understand and predict macroeconomic shifts, particularly concerning unemployment and inflation, leading to suboptimal planning. This project analyzes 80+ years of data to develop insights for improved business cycle management.
-Conclusion
+Businesses lack reliable tools to understand and predict econometric trends and recession, particularly concerning unemployment and inflation, leading to suboptimal planning. This project analyzes 80+ years of data to develop insights for improved business cycle management and business planning
 
 ## Business Conclusion
 Our analysis of long-term macroeconomic data has revealed statistically significant patterns in business cycle lengths, providing insights into the dynamics of economic transitions. Based on these patterns, our model predicts a 29% probability of a shift from stable growth to slow growth or recession within the next 12 months, starting in Q1 2025. This prediction aligns with the consensus view of many economists, as evidenced by Bankrate's 2024 Q4 Economic Indicator Survey. This convergence of our findings with expert opinion reinforces the need for businesses to proactively prepare for potential economic headwinds.
@@ -18,7 +17,11 @@ Our analysis of long-term macroeconomic data has revealed statistically signific
 
 ## Methodology and Key Insights
 
-Using the K-Means Clustering algorithm, we’ve categorized the normalized unemployment and inflation data into three key clusters:
+We start by exploring 80+ years of inflation and unemployment data in the US.
+![time_vs_inflation](https://github.com/elainechowqz/Macroeconomics-and-Markets/blob/master/time_vs_annual_inflation_rate.png)
+![time_vs_unemployment](https://github.com/elainechowqz/Macroeconomics-and-Markets/blob/master/time_vs_unemployment_rate.png)
+
+Using the K-Means Clustering algorithm, we’ve categorized the unemployment and inflation data into three key clusters:
 
 - Low inflation, low unemployment (Stable Growths)
     
