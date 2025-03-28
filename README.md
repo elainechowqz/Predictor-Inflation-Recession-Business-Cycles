@@ -18,7 +18,9 @@ Our analysis of long-term macroeconomic data has revealed statistically signific
 ## Methodology and Key Insights
 
 We start by exploring 80+ years of inflation and unemployment data in the US.
+
 ![time_vs_inflation](https://github.com/elainechowqz/Macroeconomics-and-Markets/blob/master/time_vs_annual_inflation_rate.png)
+
 ![time_vs_unemployment](https://github.com/elainechowqz/Macroeconomics-and-Markets/blob/master/time_vs_unemployment_rate.png)
 
 Using the K-Means Clustering algorithm, we’ve categorized the unemployment and inflation data into three key clusters:
